@@ -1,0 +1,3 @@
+include ':Printer_setter'
+include ':app'
+rootProject.name = "SettingBluetooth"
