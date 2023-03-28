@@ -5,9 +5,11 @@ afterEvaluate {
     publishing {
         publications {
             maven(MavenPublication) {
-                groupId = 'com.Arifuljava'
+                from components.release
+                groupId = 'com.grozziie'
                 artifactId = 'Printer_setter'
                 version = "1.0.0"
+
 
 
                 pom {
