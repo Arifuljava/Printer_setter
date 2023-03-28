@@ -6,7 +6,7 @@ afterEvaluate {
         publications {
             maven(MavenPublication) {
                 from components.release
-                groupId = 'com.grozziie'
+                groupId = 'com.github.Arifuljava'
                 artifactId = 'Printer_setter'
                 version = "1.0.0"
 
